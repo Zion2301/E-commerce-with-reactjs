@@ -1,0 +1,24 @@
+.container {
+    padding: 30px;
+    padding-top: 40px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 380px){
+      h1 {
+        font-size: 45px;
+      }
+
+      p {
+        font-size: 13px;
+      }
+}
