@@ -16,7 +16,7 @@ const Navbar = () => {
      }
   return (
       <>
-        <nav>
+        <nav className="mynav">
             <h3 className="logo"> <span className="icon"><GiLightningSlashes/></span>ZeeStore™</h3>
             <div className="middleLinks">
                 <a href="#" className="shop">Shop</a>
